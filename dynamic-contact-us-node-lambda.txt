@@ -5,8 +5,8 @@ AWS.config.update({region: 'us-west-2'});
 
 var ses = new AWS.SES();
  
-var RECEIVER = 'vaquar.cna@gmail.com';
-var SENDER = 'vaquar.cna@gmail.com';
+var RECEIVER = 'vaquar.xxx@gmail.com';
+var SENDER = 'vaquar.xxx@gmail.com';
 var ENDPOINT='email-smtp.us-east-1.amazonaws.com';
 
 var response = {
