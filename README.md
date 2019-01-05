@@ -42,3 +42,5 @@ After this, a new dist folder generated, which have the bundled files.
 - https://medium.com/ovrsea/deploy-automatically-a-react-app-on-amazon-s3-iam-within-minutes-da6cb0096d55
 - https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
 - 
+-------------------------------------------------------------------------------------------
+Open question - load balancing, auto-scaling to application health monitoring on S3 bucket static website.
