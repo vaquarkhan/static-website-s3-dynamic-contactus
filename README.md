@@ -43,4 +43,6 @@ After this, a new dist folder generated, which have the bundled files.
 - https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
 - 
 -------------------------------------------------------------------------------------------
-Open question - load balancing, auto-scaling to application health monitoring on S3 bucket static website.
+Open question - 
+* 1 load balancing, auto-scaling to application health monitoring on S3 bucket static website.
+* 2 https in url
