@@ -1,10 +1,23 @@
+
+![S3  bucket check ](https://support.skysync.com/hc/en-us/article_attachments/115002088766/amazon.png)
+
+--------------------------------------------------------------------
+
+
 #### static-website-s3-dynamic-contactus
 --------------------------------------------------------------------
+
+![S3  bucket check ](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2018/06/19/contact-arch-1.png
+)
+
 
 - https://aws.amazon.com/blogs/architecture/create-dynamic-contact-forms-for-s3-static-websites-using-aws-lambda-amazon-api-gateway-and-amazon-ses/
 
 
 --------------------------------------------------------------------
+
+![S3  bucket check ](https://d1.awsstatic.com/Projects/v1/AWS_StaticWebsiteHosting_Architecture_4b.da7f28eb4f76da574c98a8b2898af8f5d3150e48.png)
+
 
 
 ## Deploy angular app on S3 bucket
@@ -52,6 +65,7 @@ After this, a new dist folder generated, which have the bundled files.
 - https://aws.amazon.com/about-aws/whats-new/2014/03/05/amazon-cloudront-announces-sni-custom-ssl/
 - https://benjamincongdon.me/blog/2017/06/13/How-to-Deploy-a-Secure-Static-Site-to-AWS-with-S3-and-CloudFront/
 - https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/
+- https://medium.com/@peatiscoding/here-is-how-easy-it-is-to-deploy-an-angular-spa-single-page-app-as-a-static-website-using-s3-and-6aa446db38ef
 
 ### Pricing custom SSL: http://aws.amazon.com/cloudfront/pricing/
 #### Keep in mind, they are charging $600 / month. need to only pay $600 if you want a dedicated IP address. If you are happy to use SNI (which is not supported by older browsers), no extra charges apply 
@@ -73,7 +87,8 @@ Open question -
 ### If you want files from your bucket to be publicly accessible, you should create a Cloudfront Distribution that points to and is granted access to the S3 bucket.
 
 - https://medium.com/@xoor/hosting-a-secure-static-website-on-aws-1a9218dbce19
-![S3  bucket check ](- https://cdn-images-1.medium.com/max/1000/1*KcmBYiCUhgPxvUlp_KVleQ.jpeg)
+![S3  bucket check ](https://cdn-images-1.medium.com/max/1000/1*KcmBYiCUhgPxvUlp_KVleQ.jpeg)
+
 
 
 ### Trusted Advisor Check for non public bucket
