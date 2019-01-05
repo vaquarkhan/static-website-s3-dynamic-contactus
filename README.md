@@ -88,8 +88,9 @@ Open question -
 
 ### If you want files from your bucket to be publicly accessible, you should create a Cloudfront Distribution that points to and is granted access to the S3 bucket.
 
-- https://medium.com/@xoor/hosting-a-secure-static-website-on-aws-1a9218dbce19
 ![S3  bucket check ](https://cdn-images-1.medium.com/max/1000/1*KcmBYiCUhgPxvUlp_KVleQ.jpeg)
+
+- https://medium.com/@xoor/hosting-a-secure-static-website-on-aws-1a9218dbce19
 
 
 
