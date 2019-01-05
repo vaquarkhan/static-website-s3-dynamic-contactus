@@ -16,11 +16,13 @@
 
 --------------------------------------------------------------------
 
+## Deploy angular app on S3 bucket
+
+
 ![S3  bucket check ](https://d1.awsstatic.com/Projects/v1/AWS_StaticWebsiteHosting_Architecture_4b.da7f28eb4f76da574c98a8b2898af8f5d3150e48.png)
 
 
 
-## Deploy angular app on S3 bucket
 
 #### Step #1 — Create a new Angular app with the angular-cli
 First of all, you need an Angular app (if you haven’t got any).
