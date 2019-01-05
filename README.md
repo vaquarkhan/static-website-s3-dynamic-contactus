@@ -53,6 +53,7 @@ After this, a new dist folder generated, which have the bundled files.
 
 ### Pricing custom SSL: http://aws.amazon.com/cloudfront/pricing/
 #### Keep in mind, they are charging $600 / month. need to only pay $600 if you want a dedicated IP address. If you are happy to use SNI (which is not supported by older browsers), no extra charges apply 
+- https://stackoverflow.com/questions/15776598/cloudfront-cost-estimate
 - https://serverfault.com/questions/562262/how-can-i-use-https-with-aws-cloudfront-without-paying-600-to-upload-my-cert
 
 
