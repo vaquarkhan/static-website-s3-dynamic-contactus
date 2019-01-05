@@ -66,3 +66,13 @@ After this, a new dist folder generated, which have the bundled files.
 Open question - 
 * 1 load balancing, auto-scaling to application health monitoring on S3 bucket static website.
 ------------------------------------------------------------------------------------------
+
+
+### Trusted Advisor Check for non public bucket
+
+If you have too many buckets to scan in the S3 console, you can use AWS Trusted Advisor to see a security dashboard of public S3 buckets. [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/faqs/#Trusted_Advisor) is not as well known as it should be. It provides many best-practice checks with recommendations on improving security, fault-tolerance, cost optimization, and performance. Although the full list of Trusted Advisor checks is only available if you have [premium support](https://aws.amazon.com/premiumsupport/trustedadvisor/), AWS [recently made the S3 Public Bucket check free](https://aws.amazon.com/about-aws/whats-new/2018/02/aws-trusted-advisors-s3-bucket-permissions-check-is-now-free/).
+
+Here's an example of the Trusted Advisor S3 bucket check.
+![S3 public bucket check in Trusted Advisor](./img/trusted-advisor-s3.png)
+
+I recommend you run Trusted Advisor in your AWS accounts as soon as possible. You'll definitely find things to improve upon in your account and you may even find an open S3 bucket that shouldn't be open. You can even set up a weekly notification email with up-to-date Trusted Advisor recommendations, or configure [CloudWatch to trigger a Slack notification](https://docs.aws.amazon.com/awssupport/latest/user/cloudwatch-events-ta.html).
