@@ -50,6 +50,8 @@ After this, a new dist folder generated, which have the bundled files.
 - https://aws.amazon.com/blogs/aws/server-name-indication-sni-and-http-redirection-for-amazon-cloudfront/
 - https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
 - https://aws.amazon.com/about-aws/whats-new/2014/03/05/amazon-cloudront-announces-sni-custom-ssl/
+- https://benjamincongdon.me/blog/2017/06/13/How-to-Deploy-a-Secure-Static-Site-to-AWS-with-S3-and-CloudFront/
+- https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/
 
 ### Pricing custom SSL: http://aws.amazon.com/cloudfront/pricing/
 #### Keep in mind, they are charging $600 / month. need to only pay $600 if you want a dedicated IP address. If you are happy to use SNI (which is not supported by older browsers), no extra charges apply 
@@ -66,6 +68,12 @@ After this, a new dist folder generated, which have the bundled files.
 Open question - 
 * 1 load balancing, auto-scaling to application health monitoring on S3 bucket static website.
 ------------------------------------------------------------------------------------------
+### Secure public s3 static website 
+
+### If you want files from your bucket to be publicly accessible, you should create a Cloudfront Distribution that points to and is granted access to the S3 bucket.
+
+- https://medium.com/@xoor/hosting-a-secure-static-website-on-aws-1a9218dbce19
+![S3  bucket check ](- https://cdn-images-1.medium.com/max/1000/1*KcmBYiCUhgPxvUlp_KVleQ.jpeg)
 
 
 ### Trusted Advisor Check for non public bucket
@@ -76,3 +84,15 @@ Here's an example of the Trusted Advisor S3 bucket check.
 ![S3 public bucket check in Trusted Advisor](./img/trusted-advisor-s3.png)
 
 I recommend you run Trusted Advisor in your AWS accounts as soon as possible. You'll definitely find things to improve upon in your account and you may even find an open S3 bucket that shouldn't be open. You can even set up a weekly notification email with up-to-date Trusted Advisor recommendations, or configure [CloudWatch to trigger a Slack notification](https://docs.aws.amazon.com/awssupport/latest/user/cloudwatch-events-ta.html).
+
+- https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/
+- https://aws.amazon.com/blogs/mt/example-scenarios-for-aws-config-continuous-monitoring-of-amazon-s3-bucket-access-controls/
+- https://aws.amazon.com/blogs/security/how-to-use-bucket-policies-and-apply-defense-in-depth-to-help-secure-your-amazon-s3-data/
+- https://www.andreafortuna.org/cybersecurity/how-to-find-unsecured-s3-buckets-some-useful-tools/
+
+------------------------------------------------
+### Finding Publicly Readable Files in S3
+- https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/
+- https://blog.mindedsecurity.com/2018/09/a-practical-guide-to-testing-security.html
+
+
