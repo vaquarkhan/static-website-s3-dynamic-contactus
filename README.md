@@ -43,6 +43,25 @@ After this, a new dist folder generated, which have the bundled files.
 - https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
 - 
 -------------------------------------------------------------------------------------------
+### deploy your S3 + Cloudfront website with free SSL from AWS at: 
+
+- https://www.josephecombs.com/2018/03/05/how-to-make-an-AWS-S3-static-website-with-ssl
+- https://medium.com/@sbuckpesch/setup-aws-s3-static-website-hosting-using-ssl-acm-34d41d32e394
+- https://aws.amazon.com/blogs/aws/server-name-indication-sni-and-http-redirection-for-amazon-cloudfront/
+- https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
+- https://aws.amazon.com/about-aws/whats-new/2014/03/05/amazon-cloudront-announces-sni-custom-ssl/
+
+#### Pricing custom SSL: http://aws.amazon.com/cloudfront/pricing/
+### Keep in mind, they are charging $600 / month. need to only pay $600 if you want a dedicated IP address. If you are happy to use SNI (which is not supported by older browsers), no extra charges apply 
+- https://serverfault.com/questions/562262/how-can-i-use-https-with-aws-cloudfront-without-paying-600-to-upload-my-cert
+
+
+- 
+
+------------------------------------------------------------------------------------------
+### Cost compare EBS vs Cloudfront 
+
+------------------------------------------------------------------------------------------
 Open question - 
 * 1 load balancing, auto-scaling to application health monitoring on S3 bucket static website.
-* 2 https in url
+------------------------------------------------------------------------------------------
