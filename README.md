@@ -109,7 +109,7 @@ I recommend you run Trusted Advisor in your AWS accounts as soon as possible. Yo
 - https://aws.amazon.com/blogs/mt/example-scenarios-for-aws-config-continuous-monitoring-of-amazon-s3-bucket-access-controls/
 - https://aws.amazon.com/blogs/security/how-to-use-bucket-policies-and-apply-defense-in-depth-to-help-secure-your-amazon-s3-data/
 - https://www.andreafortuna.org/cybersecurity/how-to-find-unsecured-s3-buckets-some-useful-tools/
-
+- https://simonecarletti.com/blog/2016/08/redirect-domain-https-amazon-cloudfront/
 ------------------------------------------------
 ### Finding Publicly Readable Files in S3
 - https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/
