@@ -70,6 +70,7 @@ After this, a new dist folder generated, which have the bundled files.
 - https://benjamincongdon.me/blog/2017/06/13/How-to-Deploy-a-Secure-Static-Site-to-AWS-with-S3-and-CloudFront/
 - https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/
 - https://medium.com/@peatiscoding/here-is-how-easy-it-is-to-deploy-an-angular-spa-single-page-app-as-a-static-website-using-s3-and-6aa446db38ef
+- https://dev.to/arswaw/host-a-serverless-static-website-with-free-ssl-in-15-minutes-hd3
 
 ### Pricing custom SSL: http://aws.amazon.com/cloudfront/pricing/
 #### Keep in mind, they are charging $600 / month. need to only pay $600 if you want a dedicated IP address. If you are happy to use SNI (which is not supported by older browsers), no extra charges apply 
