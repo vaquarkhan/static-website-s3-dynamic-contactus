@@ -115,5 +115,5 @@ I recommend you run Trusted Advisor in your AWS accounts as soon as possible. Yo
 ### Finding Publicly Readable Files in S3
 - https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/
 - https://blog.mindedsecurity.com/2018/09/a-practical-guide-to-testing-security.html
-
+- https://andrewlock.net/using-lambda-at-edge-to-handle-angular-client-side-routing-with-s3-and-cloudfront/
 
