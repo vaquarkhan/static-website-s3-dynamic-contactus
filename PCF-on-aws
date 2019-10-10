@@ -1,0 +1,20 @@
+Deploying our spring boot microservice on AWS PCF , this poc involved following steps :
+
+-	Configure and deploy PCF on AWS 
+-	Configure CI/CD pipeline
+-	Configure RDS
+-	Configure Api gateway with security key 
+-	Configure lambda for basic authentication 
+-	Deployed Spring boot sample app using CI/CD on AWS PCF
+-	Configure Swagger doc 
+-	Configure security rules and firewall
+
+
+--------------------------------------------------
+
+-	90-day free evaluation of PAS on AWS , need to accept the PCF End User License Agreement (EULA), we are responsible for the cost of the AWS infrastructure, storage, and data services used while running this Quick Start reference deployment
+
+--------------------------------------------------
+Pic 
+
+
