@@ -117,3 +117,6 @@ I recommend you run Trusted Advisor in your AWS accounts as soon as possible. Yo
 - https://blog.mindedsecurity.com/2018/09/a-practical-guide-to-testing-security.html
 - https://andrewlock.net/using-lambda-at-edge-to-handle-angular-client-side-routing-with-s3-and-cloudfront/
 
+========================
+
+- https://stackoverflow.com/questions/41250087/how-to-deploy-a-react-nodejs-express-application-to-aws
